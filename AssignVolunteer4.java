@@ -14,8 +14,13 @@ public class AssignVolunteer4{
       final String ELECTRONICS_PRICER = "Lydia";
       
       Scanner input = new Scanner(System.in);
-      System.out.println("What type of donation is this?");
-      System.out.print("Enter an integer... ");
+      System.out.println("You agreed to donate at the checkout.");
+      System.out.println("What type of donation would you like to give to?");
+      System.out.println("CLOTHING - 1");
+      System.out.println("FURNITURE - 2");
+      System.out.println("ELECTRONICS - 3");
+      System.out.println("OTHER - 4");
+      System.out.print("Please enter the respectadle integer you would like to donate your change to... ");
       donationType = input.nextInt();
       
       switch(donationType) {
